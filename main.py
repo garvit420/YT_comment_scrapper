@@ -17,7 +17,7 @@ comments = downloader.get_comments_from_url('https://www.youtube.com/watch?v=kff
 
 # Collect the first 10 comments
 comments_list = []
-for comment in islice(comments, 40000):
+for comment in islice(comments, 400):
     comments_list.append(comment)
 
 # Save the comments to a JSON file
