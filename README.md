@@ -7,7 +7,7 @@ Simple script for downloading Youtube comments without using the Youtube API. Th
 pip install youtube-comment-downloader
 ```
 ### How to run
-You can scrape comments by running `main.py`. The comments will be stored in `comments.json`. You can change the YouTube video link in `main.py`.
+You can scrape comments by running `main.py`. The comments will be stored in `comments.json`. You can change the YouTube video link and amount of comments to be scrapped in `main.py`.
 
 ### Usage as command-line interface
 ```
